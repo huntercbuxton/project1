@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#v-spacer {
+  position: absolute;
+  width: 100vw;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 75px auto 150px;
+  flex-direction: column;
+}
+
+#logout-btn {
+  color: white;
+  background-color: black;
+  border-color: black;
+  border-style: solid;
+}
+
+form {
+  width: 800px;
+  margin: 0 auto;
+}
+
+form input {
+  display: block;
+  width: 50%;
+  margin: 30px auto;
+}
+
+form input[type="submit"] {
+  display: block;
+  width: 100px;
+  margin: 30px auto;
+}
+
+#page-header, #page-footer {
+  background-color: black;
+  color: white;
+}
+
+#page-header a {
+  text-decoration: none;
+  color: white;
+}
+
+#page-header {
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+}
+
+#page-header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  min-height: 2em;;
+}
+
+main {
+  padding: 50px;
+}
+
+
+#page-footer {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 150px;
+  font-size: small;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+#login-form {
+  width: 800px;
+  margin: 0 auto;
+}
+
+fieldset {
+  border-width: 0;
+}
+
+#login-form input {
+  display: block;
+  width: 80%;
+  margin: 30px auto;
+}
+
+main > section {
+  margin: 50px 0 20px 0;
+} 
+
+fieldset.auth-navigation {
+  width: 300px;
+  margin: 0 auto;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+

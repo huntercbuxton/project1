@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Endpoints" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-05-19T09:11:22" hostname="Hunters-iMac" time="0.96">
+  <properties/>
+  <testcase name="testEmployeeLoginResponse()" classname="Endpoints" time="0.702"/>
+  <testcase name="testManagerLoginResponse()" classname="Endpoints" time="0.018"/>
+  <testcase name="testSuccessfulLogin()" classname="Endpoints" time="0.144"/>
+  <testcase name="testSuccessfulManagerLogin()" classname="Endpoints" time="0.093"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[cluster-ClusterId{value='60a4d63aacd87d4fcf1b4106', description='null'}-localhost:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:1418}] to localhost:27017
+[cluster-ClusterId{value='60a4d63aacd87d4fcf1b4106', description='null'}-localhost:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 4]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5081180}
+[Test worker] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:1419}] to localhost:27017
+[Test worker] INFO org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[cluster-ClusterId{value='60a4d63bacd87d4fcf1b4107', description='null'}-localhost:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:1420}] to localhost:27017
+[cluster-ClusterId{value='60a4d63bacd87d4fcf1b4107', description='null'}-localhost:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 4]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1061847}
+[Test worker] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:1421}] to localhost:27017
+[Test worker] INFO org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[Test worker] INFO org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+[cluster-ClusterId{value='60a4d63bacd87d4fcf1b4108', description='null'}-localhost:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:5, serverValue:1422}] to localhost:27017
+[cluster-ClusterId{value='60a4d63bacd87d4fcf1b4108', description='null'}-localhost:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 4]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3223020}
+[Test worker] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:6, serverValue:1423}] to localhost:27017
+[Test worker] INFO org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[Test worker] INFO org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+[cluster-ClusterId{value='60a4d63bacd87d4fcf1b410a', description='null'}-localhost:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:7, serverValue:1424}] to localhost:27017
+[cluster-ClusterId{value='60a4d63bacd87d4fcf1b410a', description='null'}-localhost:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 4]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5121413}
+[Test worker] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:8, serverValue:1425}] to localhost:27017
+[Test worker] INFO org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[Test worker] INFO org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+[cluster-ClusterId{value='60a4d63bacd87d4fcf1b410b', description='null'}-localhost:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:9, serverValue:1426}] to localhost:27017
+[cluster-ClusterId{value='60a4d63bacd87d4fcf1b410b', description='null'}-localhost:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 4]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=9736486}
+[Test worker] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:10, serverValue:1427}] to localhost:27017
+[Test worker] INFO org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[Test worker] INFO org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+[cluster-ClusterId{value='60a4d63bacd87d4fcf1b410d', description='null'}-localhost:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:11, serverValue:1428}] to localhost:27017
+[cluster-ClusterId{value='60a4d63bacd87d4fcf1b410d', description='null'}-localhost:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 4]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=9784421}
+[Test worker] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:12, serverValue:1429}] to localhost:27017
+]]></system-err>
+</testsuite>

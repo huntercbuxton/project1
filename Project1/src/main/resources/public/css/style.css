@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Antic Slab', serif;
+}
+
+#page-wrapper {
+    position: absolute;
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 75px auto 150px;
+    flex-direction: column;
+}
+
+main {
+    padding: 50px;
+}
+
+nav.login, form.login {
+    min-height: 200px;
+    padding-bottom: 50px;
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+    border-color: grey;
+    border-style: solid;
+    border-width: 5px;
+}
+
+nav.login a, form.login input, form.login button {
+    width: 80%;
+    display: block;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 5px;
+    margin: 30px auto;
+}
+
+nav.login a, form.login button {
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+form.login input {
+    padding: 10px;
+    height: 1.5 em;
+}
+
+header.page-header {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+footer.page-footer {
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}

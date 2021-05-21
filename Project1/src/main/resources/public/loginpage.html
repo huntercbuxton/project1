@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- universal -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&amp;display=swap" rel="stylesheet">
+    <noscript>&lt;h1&gt;Please enable JavaScript to use this application&lt;/h1&gt;</noscript>
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+<div id="page-wrapper">
+    <header class="page-header">
+        <h1 class="page-header">Login Page</h1>
+    </header>
+    <main>
+        <form class="login" method="post" action="/login">
+            <input type="email" id="email" name="email"  placeholder="email"/>
+            <input type="password" id="password" name="password" placeholder="password"/>
+            <input type="hidden" name="accountType" id="accountType" value="employee"/>
+            <input type="submit" value="LogIn">
+        </form>
+    </main>
+    <footer class="page-footer">&copy; 2021 Hunter Buxton</footer>
+</div>
+</body>
+</html>
