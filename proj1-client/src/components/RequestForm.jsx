@@ -26,7 +26,6 @@ function RequestForm(props) {
 
   return (
     <form onSubmit={handleSubmit} className='todo-form'>
-      <>
           <input
             placeholder='Add a request'
             value={input}
@@ -38,7 +37,6 @@ function RequestForm(props) {
           <button onClick={handleSubmit} className='todo-button'>
             Add Request
           </button>
-        </>
     </form>
   );
 }

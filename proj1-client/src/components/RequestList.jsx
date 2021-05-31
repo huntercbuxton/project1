@@ -49,18 +49,18 @@ function RequestList() {
 //   addTodo("amount: 500, status: pending, date: 05/04/2020 ");
 
   return (
-    <>
-      <h1>Reimbursements</h1>
+      <div>
+        <h1>Reimbursements</h1>
      
-      <Request
-        todos={todos}
-        completeTodo={completeTodo}
-        removeTodo={removeTodo}
-        updateTodo={updateTodo}
-      />
+     <Request
+       todos={todos}
+       completeTodo={completeTodo}
+       removeTodo={removeTodo}
+       updateTodo={updateTodo}
+     />
 
-       <RequestForm onSubmit={addTodo} />
-    </>
+      <RequestForm onSubmit={addTodo} />
+      </div>
   );
 }
 
