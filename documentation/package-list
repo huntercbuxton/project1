@@ -1,0 +1,7 @@
+
+com.ex
+com.ex.controller
+com.ex.model.client
+com.ex.model.store
+com.ex.model.store.dao
+com.ex.service
