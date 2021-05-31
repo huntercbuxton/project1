@@ -20,7 +20,7 @@ public class App extends  AbstractApp {
      */
     @Override
     public void willRun() {
-        rootLogger.info("app willRum() called");
+        rootLogger.info("app willRun() called");
 //        BasicConfigurator.configure();
         registerJavalinURIs();
         mvcSetup();
