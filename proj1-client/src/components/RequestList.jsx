@@ -14,7 +14,7 @@ function RequestList() {
     if (!request.text || /^\s*$/.test(request.text)) {
       return;
     }
-// 'amount: ' + todo + ' status: pending, date: 05/19/2021 '
+
     request.text = 'amount: ' + request.text + ' status: pending, date: 05/19/2021 '
     const newTodos = [request, ...requests];
 
@@ -32,7 +32,6 @@ function RequestList() {
 
   const removeRequest = id => {
     const removedArr = [...requests].filter(todo => todo.id !== id);
-
     setRequests(removedArr);
   };
 
@@ -45,8 +44,6 @@ function RequestList() {
     });
     setRequests(updatedTodos);
   };
-
-//   addTodo("amount: 500, status: pending, date: 05/04/2020 ");
 
   return (
       <div>
